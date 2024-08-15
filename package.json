@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Shankar20052005.github.io/Embrizon-SmartED-Projects",
+  "homepage": "https://Shankar20052005.github.io/YHillsMajorProject-Pizza-store",
   "name": "pizza-store-page",
   "version": "0.1.0",
   "private": true,
@@ -12,12 +12,14 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4",
     "yup": "^1.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
